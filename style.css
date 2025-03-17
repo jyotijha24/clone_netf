@@ -200,6 +200,7 @@ body
     margin-right: 100px;
     
 }
+
 .videoimg
 {
     position: realtive;
@@ -216,8 +217,8 @@ body
     width: 900px;
     display: flex;
     margin: 50px 300px;
-    gap: 80px;
-    margin-top: 90px;
+    
+    margin-top: 100px;
 }
 .left2
 {
@@ -233,17 +234,33 @@ body
 .left3
 {
     color: white;
-    font-size: 30px;
-    width: 500px;
+    font-size: 28px;
+    width: 900px;
+}
+.left3 p
+{
+    font-size: 22px;
 }
 .right3
 {
-    margin-top: 35px;
+    margin-top: 20px;
+    position: relative;
+}
+.videoon1
+{
+        margin-left: 85px;
+        margin-top: 36px;
+        width: 62%;
+        object-fit: contain;
+        position: absolute;
+    
 }
 .device
 {
-    width: 450px;
-    margin-left: -50px; 
+        width: 495px;
+        display: block;
+        position: relative; 
+    
 }
 .kids
 {
