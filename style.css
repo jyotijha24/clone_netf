@@ -11,7 +11,7 @@ body
 
 
 /* bigger screen */
-@media (min-width:990px)
+@media (min-width:990px ) 
 {
 
     .maincontainer
@@ -127,7 +127,7 @@ body
 .email_flex
 {
     display: flex;
-    width: 100%;
+    /* width: 100%; */
     
     
     justify-content: center;
@@ -136,7 +136,7 @@ body
 }
 .email_input
 {
-   width: 350px;
+   width: 30vw;
    padding: 18px;
    border: 2px solid rgba(128, 128, 128, 0.44);
    border-radius: 5px;
@@ -147,8 +147,8 @@ body
 {
     background-color: rgb(228, 6, 6);
     color: white;
-    padding: 10px 20px;
-    font-size: 25px;
+    padding: 1vmax;
+    font-size: 1.4vmax;
     font-weight: bold;
     border-radius: 5px;
     display: flex;
@@ -165,47 +165,54 @@ body
 }
 .left
 {
-    color: white;
+   
     width: 50%;
-    /* background-color: aqua; */
-    margin-top: 50px;
+
 }
 .container-two
 {
-    width: 900px;
-    /* background-color: blue; */
-    display: flex;
-    margin: 50px 300px;
-    gap: 80px;
+        color: white;
+        display: flex;
+        width: 70vw;
+        margin: 50px auto;
+        gap: 80px;
+        align-items: center;
 }
 .sndtheading
 {
-    font-size: 35px;
-}
-.contenttwo
-{
-    margin-top: -20px;
+    font-size: 3vmax;
 }
 .right
 {
     position: relative;
+    width: 50%;
+   
+}
+.realtv{
+    position: relative;
+    width: 40vw;
+    margin: auto;
+    display: block;
+    
 }
 .videoon
 {
     position: absolute;
-    width: 327px;
-    margin-left: -390px;
-    margin-top: 72px;
-    margin-right: 100px;
+    top: 47.5%;
+    left: 49.5%;
+    transform: translate(-50%, -50%);
+    width: 72%; 
+    height: 55%;
+    object-fit: contain;
+    
     
 }
 
 .videoimg
 {
-    position: realtive;
-    width: 450px;
-    /* width: 300px; */
-    /* border: 5px solid red; */
+    
+    width: 100%;
+
 }
 .Third
 {
@@ -530,6 +537,7 @@ background-color: rgb(228, 6, 6);
     transform: translate(-50%,-50%);
     color: white;
     text-align: center;
+    overflow: hidden;
 
 }
 .mainheading
@@ -551,16 +559,14 @@ background-color: rgb(228, 6, 6);
 .email_flex
 {
     display: flex;
-    width: 100%;
-    
-    
+    /* width: 100vw; */
     justify-content: center;
     text-align: center;
     gap: 10px;
 }
 .email_input
 {
-   width: 350px;
+   width: 30vw;
    padding: 18px;
    border: 2px solid rgba(128, 128, 128, 0.44);
    border-radius: 5px;
@@ -572,7 +578,7 @@ background-color: rgb(228, 6, 6);
     background-color: rgb(228, 6, 6);
     color: white;
     padding: 10px 20px;
-    font-size: 25px;
+    font-size: 3vmax;
     font-weight: bold;
     border-radius: 5px;
     display: flex;
@@ -589,18 +595,17 @@ background-color: rgb(228, 6, 6);
 }
 .left
 {
-    color: white;
-    width: 50%;
-    /* background-color: aqua; */
-    margin-top: 50px;
+
+    width: 80vw;
+    margin: auto;
+    text-align: center;
 }
 .container-two
 {
-    width: 900px;
-    /* background-color: blue; */
-    display: flex;
-    margin: 50px 300px;
-    gap: 80px;
+
+    color: white;
+    margin: 100px auto;
+    
 }
 .sndtheading
 {
@@ -612,24 +617,31 @@ background-color: rgb(228, 6, 6);
 }
 .right
 {
+    width: 80vw;
+    text-align: center;
+    margin: auto;
+}
+.realtv
+{
+    margin: auto;
+    width: 70vw;
+    display: block;
     position: relative;
 }
 .videoon
 {
-    position: absolute;
-    width: 327px;
-    margin-left: -390px;
-    margin-top: 72px;
-    margin-right: 100px;
-    
+        margin-left: 66px;
+        width: 80%;
+        height: 90%;
+        object-fit: contain;
+        position: absolute;
 }
 
 .videoimg
 {
-    position: realtive;
-    width: 450px;
-    /* width: 300px; */
-    /* border: 5px solid red; */
+    width: 100%;
+    position: relative;
+    
 }
 .Third
 {
