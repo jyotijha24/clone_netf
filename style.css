@@ -223,30 +223,11 @@ body
     width: 900px;
     display: flex;
     margin: 50px 300px;
-    
+    /* gap: 80px; */
     margin-top: 100px;
 }
-.left2
-{
-    color: white;
-}
-.right2
-{
-    color: white;
-   margin-top: -25px;
-    font-size: 30px;
-    width: 350px;
-}
-.left3
-{
-    color: white;
-    font-size: 28px;
-    width: 900px;
-}
-.left3 p
-{
-    font-size: 22px;
-}
+
+
 .right3
 {
     margin-top: 20px;
@@ -254,36 +235,25 @@ body
 }
 .videoon1
 {
-        margin-left: 85px;
-        margin-top: 36px;
-        width: 62%;
-        object-fit: contain;
-        position: absolute;
+    position: absolute;
+    top: 30%;
+    left: 49.5%;
+    transform: translate(-50%, -50%);
+    width: 65%; 
+    height: 70%;
+    object-fit: contain;
     
 }
 .device
-{
-        width: 495px;
-        display: block;
-        position: relative; 
+{       position: relative;
+        width: 100%;
     
 }
 .kids
 {
     width: 450px;
 }
-.right4
-{
-    color: white;
-   margin-top: -25px;
-    font-size: 20px;
-    width: 500px;
 
-}
-.right4 h1
-{
-    font-size: 40px;
-}
 .Fourth
 {
     border-top: 7px solid rgba(128, 128, 128, 0.244);
@@ -292,25 +262,21 @@ body
     font-size: 40px;
 }
 .container-four
-{   position: relative;
-    width: 100%;
-    color: white;
+{   width: 70vw;
+    position: relative;
+    color: rgb(255, 255, 255);
     text-align: center;
-    /* background-color: aqua; */
     left:50%;
     top: 5%;
     transform: translate(-50%,5%);
-    /* margin-left: 100px; */
     display: flex;
     flex-direction: column;
     align-items: center;
  }
  .question
  {
-    width: 1000px;
-    
+   width: 70vw;
     background-color:rgb(45, 45, 45);
-    /* margin-left: 150px; */
     display: flex;
     margin-bottom: 6px;
     justify-content: space-between;
@@ -325,11 +291,10 @@ body
 .what
 {
     
-    width: 800px;
     text-align: start;
     background:none;
     border: none;
-    font-size: 25px;
+    font-size: 1.5vmax;
     color: white;
     padding: 15px;
    
@@ -369,49 +334,74 @@ background-color: rgb(228, 6, 6);
 }
 .footer
 {
-    border-top: 7px solid rgba(128, 128, 128, 0.244);
-}
-.query
-{
-    width: 1200px;
-    margin-top: 55px;
-    margin-left: 250px;
-}
-
-.more_faq
-{
+    /* border-top: 7px solid rgba(128, 128, 128, 0.244); */
+    width: 70vw;
+    margin: 20px auto;
+    height: 70vh;
     
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 30px;
-    color: rgb(216, 207, 207);
-    font-size: 15px;
-    margin-bottom: 20px;
-    text-decoration: white;
-    margin-left: -180px;
+    /* background-color: rgb(204, 15, 15); */
+   
+    
+    
 }
 .footer a
 {
-    color: rgb(210, 208, 208);
+    color: rgba(255, 255, 255, 0.7);
+}
+.help
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    
 
 }
-.faqlink
+.support
+{
+    margin-top: 10px;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: start;
+    gap: 150px;
+    
+}
+.support_details
 {
     display: flex;
     flex-direction: column;
     gap: 10px;
-}
+} 
+
+
 .language
 {
-    display: flex;
-    /* background: white; */
+    
     width: 100px;
     padding: 8px 10px;
     gap: 6px;
-    border: 3px solid rgb(237, 232, 232);
+    border: 3px solid rgba(87, 87, 87, 0.56);
     border-radius: 7px;
+    
+}
+
+.language2
+{
+    
+    width: 100px;
+    padding: 8px 10px;
+    gap: 6px;
+    border: 3px solid rgba(87, 87, 87, 0.56);
+    border-radius: 7px;
+    margin-top: 50px;
 }
 .language select
+{
+ border: none;
+ background-color: black;
+ color: white;
+ font-size: 15px;
+}
+.language2 select
 {
  border: none;
  background-color: black;
@@ -433,10 +423,15 @@ background-color: rgb(228, 6, 6);
     width: 20px;
     color: white;
 }
+.nindia
+{
+    margin-bottom: 100px;
+}
 .nindia p{
     margin-top: 30px;
-    color: rgb(210, 208, 208);
+    color:rgba(255, 255, 255, 0.7);
     margin-bottom: 100px;
+    
 }
 }
 
@@ -637,6 +632,7 @@ background-color: rgb(228, 6, 6);
         position: absolute;
 }
 
+
 .videoimg
 {
     width: 100%;
@@ -655,36 +651,12 @@ background-color: rgb(228, 6, 6);
     
     margin-top: 100px;
 }
-.left2
-{
-    color: white;
-}
-.right2
-{
-    color: white;
-   margin-top: -25px;
-    font-size: 30px;
-    width: 350px;
-}
-.left3
-{
-    color: white;
-    font-size: 28px;
-    width: 900px;
-}
-.left3 p
-{
-    font-size: 22px;
-}
-.right3
-{
-    margin-top: 20px;
-    position: relative;
-}
+
 .videoon1
 {
-        margin-left: 85px;
-        margin-top: 36px;
+        top:30%;
+        left: 50%;
+        transform: translate(-50%,-50%);
         width: 62%;
         object-fit: contain;
         position: absolute;
@@ -692,8 +664,7 @@ background-color: rgb(228, 6, 6);
 }
 .device
 {
-        width: 495px;
-        display: block;
+        width: 100%;
         position: relative; 
     
 }
@@ -701,18 +672,7 @@ background-color: rgb(228, 6, 6);
 {
     width: 450px;
 }
-.right4
-{
-    color: white;
-   margin-top: -25px;
-    font-size: 20px;
-    width: 500px;
 
-}
-.right4 h1
-{
-    font-size: 40px;
-}
 .Fourth
 {
     border-top: 7px solid rgba(128, 128, 128, 0.244);
@@ -721,25 +681,21 @@ background-color: rgb(228, 6, 6);
     font-size: 40px;
 }
 .container-four
-{   position: relative;
-    width: 100%;
-    color: white;
+{   width: 70vw;
+    position: relative;
+    color: rgb(255, 255, 255);
     text-align: center;
-    /* background-color: aqua; */
     left:50%;
     top: 5%;
     transform: translate(-50%,5%);
-    /* margin-left: 100px; */
     display: flex;
     flex-direction: column;
     align-items: center;
  }
  .question
  {
-    width: 1000px;
-    
+   width: 70vw;
     background-color:rgb(45, 45, 45);
-    /* margin-left: 150px; */
     display: flex;
     margin-bottom: 6px;
     justify-content: space-between;
@@ -754,11 +710,10 @@ background-color: rgb(228, 6, 6);
 .what
 {
     
-    width: 800px;
     text-align: start;
     background:none;
     border: none;
-    font-size: 25px;
+    font-size: 2vmax;
     color: white;
     padding: 15px;
    
@@ -798,49 +753,74 @@ background-color: rgb(228, 6, 6);
 }
 .footer
 {
-    border-top: 7px solid rgba(128, 128, 128, 0.244);
-}
-.query
-{
-    width: 1200px;
-    margin-top: 55px;
-    margin-left: 250px;
-}
-
-.more_faq
-{
+    /* border-top: 7px solid rgba(128, 128, 128, 0.244); */
+    width: 70vw;
+    margin: 20px auto;
+    height: 70vh;
     
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 30px;
-    color: rgb(216, 207, 207);
-    font-size: 15px;
-    margin-bottom: 20px;
-    text-decoration: white;
-    margin-left: -180px;
+    /* background-color: rgb(204, 15, 15); */
+   
+    
+    
 }
 .footer a
 {
-    color: rgb(210, 208, 208);
+    color:rgba(255, 255, 255, 0.7);
+}
+.help
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    
 
 }
-.faqlink
+.support
+{
+    margin-top: 10px;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: start;
+    gap: 5vmax;
+    
+}
+.support_details
 {
     display: flex;
     flex-direction: column;
     gap: 10px;
-}
+} 
+
+
 .language
 {
-    display: flex;
-    /* background: white; */
+    
     width: 100px;
     padding: 8px 10px;
     gap: 6px;
-    border: 3px solid rgb(237, 232, 232);
+    border: 3px solid rgba(87, 87, 87, 0.56);
     border-radius: 7px;
+    
+}
+
+.language2
+{
+    
+    width: 100px;
+    padding: 8px 10px;
+    gap: 6px;
+    border: 3px solid rgba(87, 87, 87, 0.56);
+    border-radius: 7px;
+    margin-top: 50px;
 }
 .language select
+{
+ border: none;
+ background-color: black;
+ color: white;
+ font-size: 15px;
+}
+.language2 select
 {
  border: none;
  background-color: black;
@@ -862,10 +842,15 @@ background-color: rgb(228, 6, 6);
     width: 20px;
     color: white;
 }
+.nindia
+{
+    margin-bottom: 100px;
+}
 .nindia p{
     margin-top: 30px;
-    color: rgb(210, 208, 208);
+    color:rgba(255, 255, 255, 0.7);
     margin-bottom: 100px;
+    
 }
 }
 
@@ -874,429 +859,420 @@ background-color: rgb(228, 6, 6);
 @media  (max-width:586px)
 {
     .maincontainer
-{
-    width: 100%;
-    /* height: 100vh; */
-}
-.container-one
-{
-   /* width: 100%; */
-   height: 100vh;
-   overflow: hidden;
-   position: relative;
-}
-.bg-image
-{
-    /* position:relative ;  */
-    /* z-index: 0; */
-    width: 100%;
-    transform: scale(1.4);
-    /* height: 100vh; */
-}
-.tint
-{
-    background-color:rgba(0, 0, 0, 0.381);
-    /* height: 100vh; */
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
-    position: absolute;
-   
-    /* z-index: 1; */
-    top: 0;
-   bottom: 0;
-   left: 0;
-   right: 0;
-
-}
-.nav {
-    position: absolute;
-    width: 100%; /* Full width le raha hai */
-    display: flex;
-    justify-content: space-between; /* Left & Right me maximum gap */
-    align-items: center;
-    top: 6%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 0 50px; /* Left & Right dono side 50px space */
-    background-color: transparent;
-    box-sizing: border-box;/* Ensure karega ki padding width ke andar count ho */
-}
-
-
-.netflixlogo
-{
-    /* position: absolute; */
-    height: 80px;
-    width: 180px;
-    /* background-color: aqua; */
-    margin: 0;
-    display: block;
-    /* margin-right: 150px; */
-   
-    
-}
-.Flex-button
-{
-    display: flex;
-    gap:10px;
-    align-items: center;
-}
-.en-btn
-{
-    background-color: black;
-    color: white;
-    border:2px solid gray;
-    padding: 10px 15px;
-    font-size: 15px;
-    border-radius: 5px;
-}
-.Sign_in
-{
-    background-color: red;
-    color: white;
-    font-weight: bold;
-    font-size: 15px;
-    padding: 10px 15px;
-    border-radius: 5px;
-}
-.content
-{
-    position: absolute;
-    width: 740px;
-    height: auto;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
-    color: white;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    gap: 2px;
-    /* background-color: brown; */
-    padding: 20px;
-    box-sizing: border-box;
-
-}
-.mainheading
-{
-    font-size: 50px;
-    margin-left: 50px;
-    margin-right: 50px;
-    /* background-color: aquamarine; */
-    margin-top: 0;
-    margin-bottom: 0;
-}
-/* .secondheading
-{
-    
-    background-color: azure; 
-} */
-
-.email_flex
-{
-    display: flex;
-    width: 100%;
-    
-    
-    justify-content: center;
-    text-align: center;
-    gap: 10px;
-}
-.email_input
-{
-   width: 350px;
-   padding: 18px;
-   border: 2px solid rgba(128, 128, 128, 0.44);
-   border-radius: 5px;
-   background-color: rgba(0, 0, 0, 0.568);
-   color:white;
-}
-.getstarted
-{
-    background-color: rgb(228, 6, 6);
-    color: white;
-    padding: 10px 20px;
-    font-size: 25px;
-    font-weight: bold;
-    border-radius: 5px;
-    display: flex;
-    align-items: center;
-    gap: 3px;
-}
-.arrow
-{
-   margin-top: 4px;
-}
-.second
-{
-    border-top: 7px solid rgba(128, 128, 128, 0.244);
-}
-.left
-{
-    color: white;
-    width: 50%;
-    /* background-color: aqua; */
-    margin-top: 50px;
-}
-.container-two
-{
-    width: 900px;
-    /* background-color: blue; */
-    display: flex;
-    margin: 50px 300px;
-    gap: 80px;
-}
-.sndtheading
-{
-    font-size: 35px;
-}
-.contenttwo
-{
-    margin-top: -20px;
-}
-.right
-{
-    position: relative;
-}
-.videoon
-{
-    position: absolute;
-    width: 327px;
-    margin-left: -390px;
-    margin-top: 72px;
-    margin-right: 100px;
-    
-}
-
-.videoimg
-{
-    position: realtive;
-    width: 450px;
-    /* width: 300px; */
-    /* border: 5px solid red; */
-}
-.Third
-{
-    border-top: 7px solid rgba(128, 128, 128, 0.244);
-}
-.container-three
-{
-    width: 900px;
-    display: flex;
-    margin: 50px 300px;
-    
-    margin-top: 100px;
-}
-.left2
-{
-    color: white;
-}
-.right2
-{
-    color: white;
-   margin-top: -25px;
-    font-size: 30px;
-    width: 350px;
-}
-.left3
-{
-    color: white;
-    font-size: 28px;
-    width: 900px;
-}
-.left3 p
-{
-    font-size: 22px;
-}
-.right3
-{
-    margin-top: 20px;
-    position: relative;
-}
-.videoon1
-{
-        margin-left: 85px;
-        margin-top: 36px;
-        width: 62%;
-        object-fit: contain;
+    {
+        width: 100vw;
+        /* height: 100vh; */
+    }
+    .container-one
+    {
+       width: 100vw;
+       height: 100vh;
+       overflow: hidden;
+       position: relative;
+    }
+    .bg-image
+    {
+        
+        width: 100%;
+        transform: scale(1.2);
+        height: 100vh;
+        object-fit: cover;
+    }
+    .tint
+    {
+        background-color:rgba(0, 0, 0, 0.381);
+        height: 100vh;
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
         position: absolute;
+       
+        /* z-index: 1; */
+        top: 0;
+       bottom: 0;
+       left: 0;
+       right: 0;
     
-}
-.device
-{
-        width: 495px;
+    }
+    .nav {
+        position: absolute;
+        width: calc(100vw - 80px);  /* Full width le raha hai */
+        display: flex;
+        justify-content: space-between; /* Left & Right me maximum gap */
+        align-items: center;
+        top: 6%;
+        left: 50%;
+        align-items: center;
+        transform: translate(-50%, -50%);
+        overflow: hidden;
+       
+    }
+    
+    
+    .netflixlogo
+    {
+        /* position: absolute; */
+        height: 25vh;
+        width: 25vw;
+        /* background-color: aqua; */
+        margin: 0;
         display: block;
-        position: relative; 
+        object-fit: contain;
+        /* margin-right: 150px; */
+       
+        
+    }
+    .Flex-button
+    {
+        display: flex;
+        gap:10px;
+        align-items: center;
+    }
+    .en-btn
+    {
+        background-color: black;
+        color: white;
+        border:2px solid gray;
+        padding: 10px 15px;
+        font-size: 15px;
+        border-radius: 5px;
+    }
+    .Sign_in
+    {
+        background-color: red;
+        color: white;
+        font-weight: bold;
+        font-size: 2vmax;
+        padding: 10px 15px;
+        border-radius: 5px;
+    }
+    .content
+    {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        color: white;
+        text-align: center;
+        overflow: hidden;
     
-}
-.kids
-{
-    width: 450px;
-}
-.right4
-{
-    color: white;
-   margin-top: -25px;
-    font-size: 20px;
-    width: 500px;
-
-}
-.right4 h1
-{
-    font-size: 40px;
-}
-.Fourth
-{
-    border-top: 7px solid rgba(128, 128, 128, 0.244);
-}
-.Fourth h1{
-    font-size: 40px;
-}
-.container-four
-{   position: relative;
-    width: 100%;
-    color: white;
-    text-align: center;
-    /* background-color: aqua; */
-    left:50%;
-    top: 5%;
-    transform: translate(-50%,5%);
-    /* margin-left: 100px; */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
- }
- .question
- {
-    width: 1000px;
+    }
+    .mainheading
+    {
+        font-size: 4vmax;
+        text-align: center;
+        margin: 0;
+       
+    }
+    .secondheading
+    {
+        
+        font-size: 2vmax;
+        font-weight: bold;
+    }
     
-    background-color:rgb(45, 45, 45);
-    /* margin-left: 150px; */
-    display: flex;
-    margin-bottom: 6px;
-    justify-content: space-between;
-    transition: .3s;
-   
-   
- }
- .question:hover
- {
-    background-color:rgba(86, 82, 82, 0.736);
- }
-.what
-{
     
-    width: 800px;
-    text-align: start;
-    background:none;
-    border: none;
-    font-size: 25px;
-    color: white;
-    padding: 15px;
-   
-}
-.details
-{
-    font-size: 50px;
-    background: none;
-    border: none;
-    color: white;
-    font-weight: lighter;
-
-}
-.email_input1
-{
-    width: 450px;
-   padding: 12px;
-   border: 2px solid rgba(128, 128, 128, 0.44);
-   border-radius: 5px;
-   background-color: rgba(0, 0, 0, 0.568);
-   color:white;  
-   margin-bottom: 10px;
-}
-.getstarted1
-{
-background-color: rgb(228, 6, 6);
-    color: white;
-    padding: 8px 10px;
-    font-size: 17px;
-    font-weight: normal;
-    border-radius: 5px;
-    display: flex;
-    align-items: center;
-    gap: 3px;
-    margin-left: 170px;
-    margin-bottom: 100px;
-}
-.footer
-{
-    border-top: 7px solid rgba(128, 128, 128, 0.244);
-}
-.query
-{
-    width: 1200px;
-    margin-top: 55px;
-    margin-left: 250px;
-}
-
-.more_faq
-{
     
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 30px;
-    color: rgb(216, 207, 207);
-    font-size: 15px;
-    margin-bottom: 20px;
-    text-decoration: white;
-    margin-left: -180px;
-}
-.footer a
-{
-    color: rgb(210, 208, 208);
+    .email_flex
+    {
+        display: flex;
+        /* width: 100vw; */
+        justify-content: center;
+        text-align: center;
+        gap: 10px;
+    }
+    .email_input
+    {
+       width: 30vw;
+       padding: 18px;
+       border: 2px solid rgba(128, 128, 128, 0.44);
+       border-radius: 5px;
+       background-color: rgba(0, 0, 0, 0.568);
+       color:white;
+    }
+    .getstarted
+    {
+        background-color: rgb(228, 6, 6);
+        color: white;
+        padding: 10px 20px;
+        font-size: 3vmax;
+        font-weight: bold;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        gap: 3px;
+    }
+    .arrow
+    {
+       margin-top: 4px;
+    }
+    .second
+    {
+        border-top: 7px solid rgba(128, 128, 128, 0.244);
+    }
+    .left
+    {
+    
+        width: 80vw;
+        margin: auto;
+        text-align: center;
+    }
+    .container-two
+    {
+    
+        color: white;
+        margin: 100px auto;
+        
+    }
+    .sndtheading
+    {
+        font-size: 35px;
+    }
+    .contenttwo
+    {
+        margin-top: -20px;
+    }
+    .right
+    {
+        width: 80vw;
+        text-align: center;
+        margin: auto;
+    }
+    .realtv
+    {
+        margin: auto;
+        width: 70vw;
+        display: block;
+        position: relative;
+    }
+    .videoon
+    {
+            top: 50%;
+            left: 50%;
+            width: 72%;
+            transform: translate(-50%,-50%);
+            object-fit: contain;
+            position: absolute;
+    }
+    
+    
+    .videoimg
+    {
+        width: 100%;
+        position: relative;
+        
+    }
+    .Third
+    {
+        border-top: 7px solid rgba(128, 128, 128, 0.244);
+    }
+    .container-three
+    {
+        width: 900px;
+        display: flex;
+        margin: 50px 300px;
+        
+        margin-top: 100px;
+    }
+    
+    .videoon1
+    {
+            top:30%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            width: 62%;
+            object-fit: contain;
+            position: absolute;
+        
+    }
+    .device
+    {
+            width: 100%;
+            position: relative; 
+        
+    }
+    .kids
+    {
+        width: 70vw;
+    }
+    
+    .Fourth
+    {
+        border-top: 7px solid rgba(128, 128, 128, 0.244);
+    }
+    .Fourth h1{
+        font-size: 40px;
+    }
+    .container-four
+    {   width: 70vw;
+        position: relative;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        left:50%;
+        top: 5%;
+        transform: translate(-50%,5%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+     }
+     .question
+     {
+       width: 70vw;
+        background-color:rgb(45, 45, 45);
+        display: flex;
+        margin-bottom: 6px;
+        justify-content: space-between;
+        transition: .3s;
+       
+       
+     }
+     .question:hover
+     {
+        background-color:rgba(86, 82, 82, 0.736);
+     }
+    .what
+    {
+        
+        text-align: start;
+        background:none;
+        border: none;
+        font-size: 2vmax;
+        color: white;
+        padding: 15px;
+       
+    }
+    .details
+    {
+        font-size: 50px;
+        background: none;
+        border: none;
+        color: white;
+        font-weight: lighter;
+    
+    }
+    .email_input1
+    {
+        width: 50vw;
+       padding: 12px;
+       border: 2px solid rgba(128, 128, 128, 0.44);
+       border-radius: 5px;
+       background-color: rgba(0, 0, 0, 0.568);
+       color:white;  
+       margin-bottom: 10px;
+    }
+    .getstarted1
+    {
+    background-color: rgb(228, 6, 6);
+        color: white;
+        padding: 8px 10px;
+        font-size: 17px;
+        font-weight: normal;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        gap: 3px;
+        margin-left: 5vw;
+        margin-bottom: 100px;
+    }
+    .footer
+    {
+        /* border-top: 7px solid rgba(128, 128, 128, 0.244); */
+        width: 70vw;
+        margin: 20px auto;
+        height: 70vh;
+        
+        /* background-color: rgb(204, 15, 15); */
+       
+        
+        
+    }
+    .footer a
+    {
+        color:rgba(255, 255, 255, 0.7);
+    }
+    .help
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        
+    
+    }
+    .support
+    {
+        margin-top: 10px;
+        display: flex;
+         flex-direction: column;
+        justify-content: start;
+        gap: 2vmax;
+        
+    }
+    .support_details
+    {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    } 
+    
+    
+    .language
+    {
+        
+        width: 100px;
+        padding: 8px 10px;
+        gap: 6px;
+        border: 3px solid rgba(87, 87, 87, 0.56);
+        border-radius: 7px;
+        
+    }
+    
+    .language2
+    {
+        
+        width: 100px;
+        padding: 8px 10px;
+        gap: 6px;
+        border: 3px solid rgba(87, 87, 87, 0.56);
+        border-radius: 7px;
+        margin-top: 50px;
+    }
+    .language select
+    {
+     border: none;
+     background-color: black;
+     color: white;
+     font-size: 15px;
+    }
+    .language2 select
+    {
+     border: none;
+     background-color: black;
+     color: white;
+     font-size: 15px;
+    }
+    .language option
+    {
+        margin-top: 60px;
+        color:black;
+        border: none;
+        background-color: white;
+    
+       
+    }
+    .languagepng
+    {
+        height: 20px;
+        width: 20px;
+        color: white;
+    }
+    .nindia
+    {
+        margin-bottom: 100px;
+    }
+    .nindia p{
+        margin-top: 30px;
+        color:rgba(255, 255, 255, 0.7);
+        margin-bottom: 100px;
+        
+    }
+    }
 
-}
-.faqlink
-{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-.language
-{
-    display: flex;
-    /* background: white; */
-    width: 100px;
-    padding: 8px 10px;
-    gap: 6px;
-    border: 3px solid rgb(237, 232, 232);
-    border-radius: 7px;
-}
-.language select
-{
- border: none;
- background-color: black;
- color: white;
- font-size: 15px;
-}
-.language option
-{
-    margin-top: 60px;
-    color:black;
-    border: none;
-    background-color: white;
 
-   
-}
-.languagepng
-{
-    height: 20px;
-    width: 20px;
-    color: white;
-}
-.nindia p{
-    margin-top: 30px;
-    color: rgb(210, 208, 208);
-    margin-bottom: 100px;
-}
-
-}
