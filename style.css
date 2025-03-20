@@ -138,10 +138,14 @@ body
 {
    width: 30vw;
    padding: 18px;
-   border: 2px solid rgba(128, 128, 128, 0.44);
+   border: 1px solid rgba(128, 128, 128, 0.44);
    border-radius: 5px;
    background-color: rgba(0, 0, 0, 0.568);
    color:white;
+}
+.email_input:focus
+{
+outline: 2px solid white;
 }
 .getstarted
 {
@@ -310,13 +314,16 @@ body
 }
 .email_input1
 {
-    width: 450px;
-   padding: 12px;
-   border: 2px solid rgba(128, 128, 128, 0.44);
+   width: 30vw;
+   padding: 18px;
+   border: 1px solid rgba(128, 128, 128, 0.44);
    border-radius: 5px;
    background-color: rgba(0, 0, 0, 0.568);
-   color:white;  
-   margin-bottom: 10px;
+   color:white;
+}
+.email_input1:focus
+{
+outline: 2px solid white;
 }
 .getstarted1
 {
@@ -331,6 +338,7 @@ background-color: rgb(228, 6, 6);
     gap: 3px;
     margin-left: 170px;
     margin-bottom: 100px;
+    margin-top: 10px;
 }
 .footer
 {
@@ -526,13 +534,14 @@ background-color: rgb(228, 6, 6);
 .content
 {
     position: absolute;
-    width: 840px;
+    width: 70vw;
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
     color: white;
     text-align: center;
     overflow: hidden;
+    /* height: 100vh; */
 
 }
 .mainheading
@@ -558,21 +567,28 @@ background-color: rgb(228, 6, 6);
     justify-content: center;
     text-align: center;
     gap: 10px;
+    align-items: center;
 }
 .email_input
 {
-   width: 30vw;
-   padding: 18px;
-   border: 2px solid rgba(128, 128, 128, 0.44);
-   border-radius: 5px;
-   background-color: rgba(0, 0, 0, 0.568);
-   color:white;
+    width: 32vw;
+    padding: 14px;
+    font-size: 16px;
+    background-color: rgba(0, 0, 0, 0.551);
+    border: 1px solid #eeeeee70;
+    border-radius: 4px;
+    /* margin-bottom: 10px; */
+    /* height: 4vh; */
+}
+.email_input:focus
+{
+outline: 2px solid white;
 }
 .getstarted
 {
     background-color: rgb(228, 6, 6);
     color: white;
-    padding: 10px 20px;
+    padding: 8px 20px;
     font-size: 3vmax;
     font-weight: bold;
     border-radius: 5px;
@@ -736,6 +752,10 @@ background-color: rgb(228, 6, 6);
    background-color: rgba(0, 0, 0, 0.568);
    color:white;  
    margin-bottom: 10px;
+}
+.email_input1:focus
+{
+    outline: 2px solid white;
 }
 .getstarted1
 {
@@ -974,19 +994,22 @@ background-color: rgb(228, 6, 6);
     .email_flex
     {
         display: flex;
-        /* width: 100vw; */
+        flex-wrap: wrap;
         justify-content: center;
-        text-align: center;
-        gap: 10px;
+        gap: 14px;
     }
     .email_input
     {
-       width: 30vw;
-       padding: 18px;
-       border: 2px solid rgba(128, 128, 128, 0.44);
-       border-radius: 5px;
-       background-color: rgba(0, 0, 0, 0.568);
-       color:white;
+        width: 40vw;
+        padding: 14px;
+        font-size: 16px;
+        background-color: rgba(0, 0, 0, 0.551);
+        border: 1px solid #eeeeee70;
+        border-radius: 4px;
+    }
+    .email_input:focus
+    {
+        outline: 2px solid white;
     }
     .getstarted
     {
@@ -1151,12 +1174,16 @@ background-color: rgb(228, 6, 6);
     .email_input1
     {
         width: 50vw;
-       padding: 12px;
-       border: 2px solid rgba(128, 128, 128, 0.44);
+       padding: 15px;
+       border: 1px solid rgba(128, 128, 128, 0.44);
        border-radius: 5px;
        background-color: rgba(0, 0, 0, 0.568);
        color:white;  
        margin-bottom: 10px;
+    }
+    .email_input1:focus
+    {
+        outline:3px solid white;
     }
     .getstarted1
     {
@@ -1169,7 +1196,7 @@ background-color: rgb(228, 6, 6);
         display: flex;
         align-items: center;
         gap: 3px;
-        margin-left: 5vw;
+        margin-left: 7vw;
         margin-bottom: 100px;
     }
     .footer
